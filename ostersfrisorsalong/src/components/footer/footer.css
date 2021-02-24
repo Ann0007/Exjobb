@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pompiere&family=Roboto:wght@100;400&display=swap');
+
+.footer-container{
+    background-color: #f1f1f1; 
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #d4cac4;
+}
+
+.footer-info{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.phone-number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 6px; 
+    text-align: center; 
+    margin-top: 75px;
+}
+
+.contact{
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 60px;
+}
+
+.contact-header{
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+.openingHours{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 60px;
+
+}
+.opening-header{
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+.visit-us{
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify; 
+    margin-top: 75px;
+}
+
+.insta-icon{
+    color: #888888;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.insta-icon:hover{
+    transform: scale(1.3);  
+}
+
+.arrowUp{
+    transition: transform .3s;
+    cursor: pointer;
+    margin-left: 1280px;
+}
+
+.arrowUp:hover{
+    transform: scale(1.3);  
+}
+
+.toTop{
+    font-family: 'Roboto', sans-serif;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-left: 1120px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+.scroll-up-link{
+    text-decoration: none !important;
+    list-style-type: none !important;
+}

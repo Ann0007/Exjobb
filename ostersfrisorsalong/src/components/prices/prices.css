@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pompiere&family=Roboto:wght@100;400&display=swap');
+
+.prices-container{
+    background-color: white;
+    width: 100%;
+}
+
+.priceInfo-box{
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.hairstyleImg{
+    width: 400px;
+}
+
+.cutHeader{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #888888;
+    margin: 0;
+    float: left; 
+    font-weight: 100;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+} 
+
+.price-text{
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    text-align: justify; 
+    margin-top: 60px;
+}
+
+.reserve-button-gallery{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 3px; 
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-right: 850px; 
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    background-color: #e6deda;
+    border: 0px;
+    transition: transform .3s;
+}
+
+.reserve-button-gallery:hover{
+    transform: scale(1.1); 
+}
+
+.box-header{
+    background-color: #dad2d1;
+    font-family: 'Roboto', sans-serif !important;
+    color: #888888 !important; 
+    font-size: 15px !important;
+    width: 50%;
+    font-weight: 400 !important;
+    letter-spacing: 4px !important;
+    text-transform: uppercase;
+}
+
+.row-name{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 15px !important;
+    color: #888888 !important; 
+}
+
+.row-price{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 15px !important;
+    color: #888888 !important; 
+}
+
+.table-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cut-table{
+    margin-bottom: 50px;
+}
+
+.color-table{
+    margin-bottom: 50px;
+}
+
+.bleach-table{
+    margin-bottom: 50px;
+}
+
+.styling-table{
+    margin-bottom: 50px; 
+}
+
+.other-table{
+    margin-bottom: 100px;
+}

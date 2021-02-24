@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pompiere&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+.navigation-container{
+    display: flex; 
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    border-bottom: 2px solid #e7e3e1; 
+}
+
+.start-header{
+    margin-top: 40px;
+}
+
+.headtext{
+    font-family: 'Italiana', serif;
+    text-transform: uppercase; 
+    letter-spacing: 14px; 
+    font-size: 60px;
+    color: #97918e;
+    
+}
+
+.subtext{
+    font-family: 'Italiana', serif;
+    text-transform: uppercase; 
+    letter-spacing: 6px; 
+    font-size: 45px;
+    color: #97918e;
+    margin-top: -15px;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    width: 60%;
+    color: #e7e3e1;
+    background-image: linear-gradient(to right, rgba(216, 212, 209, 0.034), rgba(216, 212, 209, 0.76), rgba(216, 212, 209, 0.034));
+}
+
+.landingpage-navigation{
+    display: inline-block; 
+    text-decoration: none !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding: 0px 35px 0px 35px;
+    cursor: pointer;
+    color: #888888;   
+    font-weight: lighter;
+    list-style-type: none !important;
+    margin-bottom: 20px; 
+    margin-top: -10px;
+    transition: transform .3s; 
+}
+
+.landingpage-navigation:hover{
+    color: #888888 !important; 
+    transform: scale(1.4); 
+}
+
